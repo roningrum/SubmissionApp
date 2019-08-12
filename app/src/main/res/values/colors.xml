@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#004BA0</color>
+    <color name="colorAccent">#4FC3F7</color>
+
+    <color name="colorCenterrad">#A61565C0</color>
+    <color name="colorStartGrad">#B5004BA0</color>
+    <color name="colorEndGrad">#B94FC3F7</color>
+
+    <color name="colorBlackTextTitle">#131212</color>
+    <color name="colorBlackTextSubTitle">#222121</color>
+    <color name="colorBlacktextPrimary">#A29F9F</color>
+    <color name="colorGreyBackground">#EBE7E7</color>
+</resources>

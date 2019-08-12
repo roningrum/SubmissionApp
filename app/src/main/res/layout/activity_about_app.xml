@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.AboutAppActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_about_menu"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:id="@+id/layout_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_about"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/rizki"/>
+        <TextView
+            android:id="@+id/tv_name_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/name_about"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlackTextTitle"
+            android:fontFamily="@font/open_sans"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/tv_email_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/email_about"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlackTextSubTitle"
+            android:fontFamily="@font/open_sans"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SubmissionApp</string>
+    <string name="shoes_name">Nike</string>
+    <string name="clothes_name">Balenciaga</string>
+    <string name="shoesyear">1908</string>
+    <string name="about_detail">Informasi</string>
+    <string name="string_welcome_app">Selamat datang di CapitalApp</string>
+    <string name="string_kategori">kategori</string>
+    <string name="string_home_page">Beranda</string>
+    <string name="clothes_home_menu">Fashion</string>
+    <string name="shoes_home_menu">Sepatu</string>
+    <string name="watchs_home_menu">Jam</string>
+    <string name="glasses_home_menu">kacamata</string>
+    <string name="watch_name">Tissot</string>
+    <string name="glasses_name">RayBan</string>
+    <string name="email_about">rizkioktavianingrum@gmail.com</string>
+    <string name="name_about">Rizki Oktavia Ningrum</string>
+    <string name="about_person">Tentang Pembuat</string>
+    <string name="app_name_custom">CapitalApp</string>
+</resources>
